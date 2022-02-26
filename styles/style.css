@@ -141,8 +141,6 @@ span:active {
   box-shadow: none;
   color: white;
   background-color: blueviolet;
-  position: relative;
-  top: 20px;
 }
 
 .call_me {
