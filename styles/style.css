@@ -113,7 +113,6 @@ h2 {
 p {
   background-color: rgb(194, 14, 98);
   padding: 10px;
-  margin: 1px;
   display: block;
   text-align: center;
 }
@@ -121,6 +120,10 @@ p {
 section {
   text-align: center;
   box-sizing: border-box;
+}
+
+h3 {
+  line-height: 2.5em;
 }
 
 span {
@@ -147,8 +150,22 @@ span:active {
 }
 
 .callbutt {
-  background-color: aqua;
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: aqua;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about,
+.why_us {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.payment,
+.add_serv {
+  max-width: 850px;
+  margin: 0 auto;
 }
